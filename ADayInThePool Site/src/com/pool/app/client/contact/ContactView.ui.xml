@@ -2,7 +2,7 @@
              xmlns:g='urn:import:com.google.gwt.user.client.ui'
 			 ui:generateFormat='com.google.gwt.i18n.rebind.format.PropertiesFormat'
 		     ui:generateKeys="com.google.gwt.i18n.server.keygen.MD5KeyGenerator"
-		     ui:generateLocales="default,en_US">
+    		 ui:generateLocales="default,en,es">
 
     <ui:with field="nameTokens" type="com.pool.app.client.NameTokens"/>
 

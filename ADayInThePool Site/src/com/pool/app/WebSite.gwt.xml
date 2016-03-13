@@ -8,14 +8,14 @@
 	<inherits name="com.arcbees.analytics.Analytics"/>
 	<inherits name="com.google.gwt.logging.Logging"/>
 
+	<!-- for internationalization -->
 	<inherits name="com.google.gwt.i18n.I18N"/>
-	<extend-property name="locale" values="fr"/>
 	<extend-property name="locale" values="en"/>
 	<extend-property name="locale" values="es"/>
-	<set-property name="locale" value="en,fr,es"/>
+	<set-property name="locale" value="en,es"/>
 	<set-property-fallback name="locale" value="es"/>
 
-    <!-- For SDM -->
+    <!-- For SDM (SuperDev Mode) -->
     <add-linker name="xsiframe"/>
     <set-configuration-property name="devModeRedirectEnabled" value="true"/>
     <set-configuration-property name="gin.ginjector.modules" value="com.pool.app.client.ClientModule"/>
@@ -26,4 +26,5 @@
     <source path='dispatch'/>
 
     <entry-point class="com.pool.app.client.AppEntryPoint"/>
+    
 </module>
