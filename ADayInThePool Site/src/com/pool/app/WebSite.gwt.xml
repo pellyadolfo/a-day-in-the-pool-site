@@ -8,6 +8,13 @@
 	<inherits name="com.arcbees.analytics.Analytics"/>
 	<inherits name="com.google.gwt.logging.Logging"/>
 
+	<inherits name="com.google.gwt.i18n.I18N"/>
+	<extend-property name="locale" values="fr"/>
+	<extend-property name="locale" values="en"/>
+	<extend-property name="locale" values="es"/>
+	<set-property name="locale" value="en,fr,es"/>
+	<set-property-fallback name="locale" value="es"/>
+
     <!-- For SDM -->
     <add-linker name="xsiframe"/>
     <set-configuration-property name="devModeRedirectEnabled" value="true"/>

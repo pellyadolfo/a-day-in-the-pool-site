@@ -1,5 +1,8 @@
 <ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
-             xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+             xmlns:g='urn:import:com.google.gwt.user.client.ui'
+			 ui:generateFormat='com.google.gwt.i18n.rebind.format.PropertiesFormat'
+		     ui:generateKeys="com.google.gwt.i18n.server.keygen.MD5KeyGenerator"
+		     ui:generateLocales="default,en_US">
 
     <ui:with field="nameTokens" type="com.pool.app.client.NameTokens"/>
 
@@ -48,7 +51,6 @@
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
                         <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About Us</a></li>
                         <li><a href="#services">Services</a></li>
                         <li><a href="#portfolio">Portfolio</a></li>
                         <li class="dropdown">
@@ -62,6 +64,7 @@
                         </li>
                         <li class="active"><a href="#blog">Blog</a></li> 
                         <li><a href="#contact">Contact</a></li>                        
+                        <li><a href="#about">About Us</a></li>
                     </ul>
                 </div>
             </div><!--/.container-->

@@ -1,25 +1,9 @@
-<!--
-  #%L
-  GwtBootstrap3
-  %%
-  Copyright (C) 2013 GwtBootstrap3
-  %%
-  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License.
-  #L%
-  -->
-<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
-             xmlns:g='urn:import:com.google.gwt.user.client.ui'>
-
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder" 
+			 xmlns:g='urn:import:com.google.gwt.user.client.ui'
+			 ui:generateFormat='com.google.gwt.i18n.rebind.format.PropertiesFormat'
+		     ui:generateKeys="com.google.gwt.i18n.server.keygen.MD5KeyGenerator"
+		     ui:generateLocales="default,en_US">
+		     
     <ui:with field="nameTokens" type="com.pool.app.client.NameTokens"/>
 
 <g:HTMLPanel>
@@ -67,7 +51,6 @@
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
                         <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About Us</a></li>
                         <li class="active"><a href="#services">Services</a></li>
                         <li><a href="#portfolio">Portfolio</a></li>
                         <li class="dropdown">
@@ -81,6 +64,7 @@
                         </li>
                         <li><a href="#blog">Blog</a></li> 
                         <li><a href="#contact">Contact</a></li>                        
+                        <li><a href="#about">About Us</a></li>
                     </ul>
                 </div>
             </div><!--/.container-->

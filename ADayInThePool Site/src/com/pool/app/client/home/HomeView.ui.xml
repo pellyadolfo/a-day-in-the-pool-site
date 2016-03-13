@@ -1,24 +1,9 @@
-<!--
-  #%L
-  GwtBootstrap3
-  %%
-  Copyright (C) 2013 GwtBootstrap3
-  %%
-  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License.
-  #L%
-  -->
-<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
-             xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+<ui:UiBinder 
+	xmlns:ui="urn:ui:com.google.gwt.uibinder" 
+	xmlns:g='urn:import:com.google.gwt.user.client.ui'
+	ui:generateFormat='com.google.gwt.i18n.rebind.format.PropertiesFormat'
+    ui:generateKeys="com.google.gwt.i18n.server.keygen.MD5KeyGenerator"
+    ui:generateLocales="default,en_US">
 
     <ui:with field="nameTokens" type="com.pool.app.client.NameTokens"/>
 
@@ -67,20 +52,20 @@
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="#home">Home</a></li>
-                        <li><a href="#about">About Us</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#services"><ui:msg description="Main - Menu - Services">Services</ui:msg></a></li>
+                        <li><a href="#portfolio"><ui:msg description="Main - Menu - Portfolio">Portfolio</ui:msg></a></li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="fa fa-angle-down"></i></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><ui:msg description="Main - Menu - Pages">Pages</ui:msg><i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#blogitem">Blog Single</a></li>
-                                <li><a href="#pricing">Pricing</a></li>
-                                <li><a href="#error">404</a></li>
-                                <li><a href="#shortcodes">Shortcodes</a></li>
+                                <li><a href="#blogitem"><ui:msg description="Main - Menu - Blog Single">Blog Single</ui:msg></a></li>
+                                <li><a href="#pricing"><ui:msg description="Main - Menu - Pricing">Pricing</ui:msg></a></li>
+                                <li><a href="#error"><ui:msg description="Main - Menu - Error">Error</ui:msg></a></li>
+                                <li><a href="#shortcodes"><ui:msg description="Main - Menu - ShortCodes">Shortcodes</ui:msg></a></li>
                             </ul>
                         </li>
-                        <li><a href="#blog">Blog</a></li> 
-                        <li><a href="#contact">Contact</a></li>                        
+                        <li><a href="#blog"><ui:msg description="Main - Menu - Blog">Blog</ui:msg></a></li> 
+                        <li><a href="#contact"><ui:msg description="Main - Menu - Contact">Contact</ui:msg></a></li>                        
+                        <li><a href="#about"><ui:msg description="Main - Menu - About Us">About Us</ui:msg></a></li>
                     </ul>
                 </div>
             </div><!--/.container-->
@@ -102,9 +87,9 @@
                         <div class="row slide-margin">
                             <div class="col-sm-8">
                                 <div class="carousel-content">
-                                    <h1 class="animation animated-item-1">Lorem ipsum dolor sit amet consectetur adipisicing elit</h1>
-                                    <h2 class="animation animated-item-2">Accusantium doloremque laudantium totam rem aperiam, eaque ipsa...</h2>
-                                    <a class="btn-slide animation animated-item-3" href="#">Read More</a>
+                                    <h1 class="animation animated-item-1"><ui:msg description="Main - Slider - Message11">Lorem ipsum dolor sit amet consectetur adipisicing elit</ui:msg></h1>
+                                    <h2 class="animation animated-item-2"><ui:msg description="Main - Slider - Message12">Accusantium doloremque laudantium totam rem aperiam, eaque ipsa...</ui:msg></h2>
+                                    <a class="btn-slide animation animated-item-3" href="#"><ui:msg description="Main - Slider - Button1">Read More</ui:msg></a>
                                 </div>
                             </div>
 
@@ -130,9 +115,9 @@
                         
                             <div class="col-sm-6">
                                 <div class="carousel-content">
-                                    <h1 class="animation animated-item-1">Lorem ipsum dolor sit amet consectetur adipisicing elit</h1>
-                                    <h2 class="animation animated-item-2">Accusantium doloremque laudantium totam rem aperiam, eaque ipsa...</h2>
-                                    <a class="btn-slide animation animated-item-3" href="#">Read More</a>
+                                    <h1 class="animation animated-item-1"><ui:msg description="Main - Slider - Message21">Lorem ipsum dolor sit amet consectetur adipisicing elit</ui:msg></h1>
+                                    <h2 class="animation animated-item-2"><ui:msg description="Main - Slider - Message22">Accusantium doloremque laudantium totam rem aperiam, eaque ipsa...</ui:msg></h2>
+                                    <a class="btn-slide animation animated-item-3" href="#"><ui:msg description="Main - Slider - Button2">Read More</ui:msg></a>
                                 </div>
                             </div>
                         </div>
@@ -144,9 +129,9 @@
                         <div class="row slide-margin">
                             <div class="col-sm-6">
                                 <div class="carousel-content">
-                                    <h1 class="animation animated-item-1">Lorem ipsum dolor sit amet consectetur adipisicing elit</h1>
-                                    <h2 class="animation animated-item-2">Accusantium doloremque laudantium totam rem aperiam, eaque ipsa...</h2>
-                                    <a class="btn-slide animation animated-item-3" href="#">Read More</a>
+                                    <h1 class="animation animated-item-1"><ui:msg description="Main - Slider - Message31">Lorem ipsum dolor sit amet consectetur adipisicing elit</ui:msg></h1>
+                                    <h2 class="animation animated-item-2"><ui:msg description="Main - Slider - Message32">Accusantium doloremque laudantium totam rem aperiam, eaque ipsa...</ui:msg></h2>
+                                    <a class="btn-slide animation animated-item-3" href="#"><ui:msg description="Main - Slider - Button3">Read More</ui:msg></a>
                                 </div>
                             </div>
                             <div class="col-sm-6 hidden-xs animation animated-item-4">
