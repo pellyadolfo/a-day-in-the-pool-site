@@ -50,21 +50,21 @@
                 
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li class="active"><a href="#home">Home</a></li>
+                        <li><a href="#services"><ui:msg description="Pricing - Menu - Services">Services</ui:msg></a></li>
+                        <li><a href="#portfolio"><ui:msg description="Pricing - Menu - Portfolio">Portfolio</ui:msg></a></li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="fa fa-angle-down"></i></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><ui:msg description="BlogView - Menu - Pages">Pages</ui:msg><i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#blogitem">Blog Single</a></li>
-                                <li><a href="#pricing">Pricing</a></li>
-                                <li><a href="#error">404</a></li>
-                                <li><a href="#shortcodes">Shortcodes</a></li>
+                                <li><a href="#blogitem"><ui:msg description="Pricing - Menu - Blog Single">Blog Single</ui:msg></a></li>
+                                <li><a href="#pricing"><ui:msg description="Pricing - Menu - Pricing">Pricing</ui:msg></a></li>
+                                <li><a href="#error"><ui:msg description="Pricing - Menu - Error">Error</ui:msg></a></li>
+                                <li><a href="#shortcodes"><ui:msg description="Pricing - Menu - ShortCodes">Shortcodes</ui:msg></a></li>
                             </ul>
                         </li>
-                        <li><a href="#blog">Blog</a></li> 
-                        <li><a href="#contact">Contact</a></li>                        
-                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#blog"><ui:msg description="Pricing - Menu - Blog">Blog</ui:msg></a></li> 
+                        <li><a href="#contact"><ui:msg description="Pricing - Menu - Contact">Contact</ui:msg></a></li>                        
+                        <li><a href="#about"><ui:msg description="Pricing - Menu - About Us">About Us</ui:msg></a></li>
                     </ul>
                 </div>
             </div><!--/.container-->
