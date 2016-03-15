@@ -50,14 +50,14 @@
                 
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="#home">Home</a></li>
+                        <li><a href="#home">Home</a></li>
                         <li><a href="#services"><ui:msg description="Pricing - Menu - Services">Services</ui:msg></a></li>
                         <li><a href="#portfolio"><ui:msg description="Pricing - Menu - Portfolio">Portfolio</ui:msg></a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><ui:msg description="BlogView - Menu - Pages">Pages</ui:msg><i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
                                 <li><a href="#blogitem"><ui:msg description="Pricing - Menu - Blog Single">Blog Single</ui:msg></a></li>
-                                <li><a href="#pricing"><ui:msg description="Pricing - Menu - Pricing">Pricing</ui:msg></a></li>
+                                <li class="active"><a href="#pricing"><ui:msg description="Pricing - Menu - Pricing">Pricing</ui:msg></a></li>
                                 <li><a href="#shortcodes"><ui:msg description="Pricing - Menu - ShortCodes">Shortcodes</ui:msg></a></li>
                             </ul>
                         </li>

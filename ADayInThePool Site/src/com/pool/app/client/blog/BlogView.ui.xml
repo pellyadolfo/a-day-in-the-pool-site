@@ -50,7 +50,7 @@
                 
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="#home">Home</a></li>
+                        <li><a href="#home">Home</a></li>
                         <li><a href="#services"><ui:msg description="BlogView - Menu - Services">Services</ui:msg></a></li>
                         <li><a href="#portfolio"><ui:msg description="BlogView - Menu - Portfolio">Portfolio</ui:msg></a></li>
                         <li class="dropdown">
@@ -61,7 +61,7 @@
                                 <li><a href="#shortcodes"><ui:msg description="BlogView - Menu - ShortCodes">Shortcodes</ui:msg></a></li>
                             </ul>
                         </li>
-                        <li><a href="#blog"><ui:msg description="BlogView - Menu - Blog">Blog</ui:msg></a></li> 
+                        <li class="active"><a href="#blog"><ui:msg description="BlogView - Menu - Blog">Blog</ui:msg></a></li> 
                         <li><a href="#contact"><ui:msg description="BlogView - Menu - Contact">Contact</ui:msg></a></li>                        
                         <li><a href="#about"><ui:msg description="BlogView - Menu - About Us">About Us</ui:msg></a></li>
                     </ul>
