@@ -187,13 +187,13 @@
                         </div>
                     </div><!--/.col-md-4-->
                 
-                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <!-- div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
                             <i class="fa fa-leaf"></i>
                             <h2><ui:msg description="Main_Button_Title4">Adipisicing elit</ui:msg></h2>
                             <h3><ui:msg description="Main_Button_Text4">Lorem ipsum dolor sit amet, consectetur adipisicing elit4</ui:msg></h3>
                         </div>
-                    </div><!--/.col-md-4-->
+                    </div><!-/.col-md-4->
 
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
@@ -201,7 +201,7 @@
                             <h2><ui:msg description="Main_Button_Title5">Sed do eiusmod</ui:msg></h2>
                             <h3><ui:msg description="Main_Button_Text5">Lorem ipsum dolor sit amet, consectetur adipisicing elit5</ui:msg></h3>
                         </div>
-                    </div><!--/.col-md-4-->
+                    </div><!-/.col-md-4->
 
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
@@ -209,7 +209,7 @@
                             <h2><ui:msg description="Main_Button_Title6">Labore et dolore</ui:msg></h2>
                             <h3><ui:msg description="Main_Button_Text6">Lorem ipsum dolor sit amet, consectetur adipisicing elit6</ui:msg></h3>
                         </div>
-                    </div><!--/.col-md-4-->
+                    </div><!-/.col-md-4-->
                 </div><!--/.services-->
             </div><!--/.row-->    
         </div><!--/.container-->
