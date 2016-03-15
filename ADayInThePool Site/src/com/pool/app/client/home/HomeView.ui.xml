@@ -89,7 +89,8 @@
                                 <div class="carousel-content">
                                     <h1 class="animation animated-item-1"><ui:msg description="Main Slider Message11">Lorem ipsum dolor sit amet consectetur adipisicing elit</ui:msg></h1>
                                     <h2 class="animation animated-item-2"><ui:msg description="Main Slider Message12">Accusantium doloremque laudantium totam rem aperiam, eaque ipsa...</ui:msg></h2>
-                                    <a class="btn-slide animation animated-item-3" href="#"><ui:msg description="Main Slider Button1">Read More</ui:msg></a>
+                                    <!-- a class="btn-slide animation animated-item-3" href="#"><ui:msg description="Main Slider Button1">Read More</ui:msg></a-->
+                                    <a class="animation animated-item-3" target="_blank" href="https://play.google.com/store/apps/details?id=com.dynassets.pool.demand"><img class="img-responsive"  src="http://www.seechat.de/medien/seechat-googleplay.png"/></a>
                                 </div>
                             </div>
 
@@ -117,7 +118,8 @@
                                 <div class="carousel-content">
                                     <h1 class="animation animated-item-1"><ui:msg description="Main Slider Message21">Loremq ipsum dolor sit amet consectetur adipisicing elit</ui:msg></h1>
                                     <h2 class="animation animated-item-2"><ui:msg description="Main Slider Message22">Accusantiume doloremque laudantium totam rem aperiam, eaque ipsa...</ui:msg></h2>
-                                    <a class="btn-slide animation animated-item-3" href="#"><ui:msg description="Main Slider Button2">Read More</ui:msg></a>
+                                    <!-- a class="btn-slide animation animated-item-3" href="#"><ui:msg description="Main Slider Button2">Read More</ui:msg></a-->
+                                    <a class="animation animated-item-3" target="_blank" href="https://play.google.com/store/apps/details?id=com.dynassets.pool.demand"><img class="img-responsive"  src="http://www.seechat.de/medien/seechat-googleplay.png"/></a>
                                 </div>
                             </div>
                         </div>
@@ -131,7 +133,8 @@
                                 <div class="carousel-content">
                                     <h1 class="animation animated-item-1"><ui:msg description="Main Slider Message31">Loremw ipsum dolor sit amet consectetur adipisicing elit</ui:msg></h1>
                                     <h2 class="animation animated-item-2"><ui:msg description="Main Slider Message32">Accusantiumr doloremque laudantium totam rem aperiam, eaque ipsa...</ui:msg></h2>
-                                    <a class="btn-slide animation animated-item-3" href="#"><ui:msg description="Main Slider Button3">Read More</ui:msg></a>
+                                    <!-- a class="btn-slide animation animated-item-3" href="#"><ui:msg description="Main Slider Button3">Read More</ui:msg></a-->
+                                    <a class="animation animated-item-3" target="_blank" href="https://play.google.com/store/apps/details?id=com.dynassets.pool.demand"><img class="img-responsive"  src="http://www.seechat.de/medien/seechat-googleplay.png"/></a>
                                 </div>
                             </div>
                             <div class="col-sm-6 hidden-xs animation animated-item-4">
@@ -607,14 +610,14 @@
 
                 <div class="col-xs-12 col-sm-4 wow fadeInDown">
                     <div class="testimonial">
-                        <h2>Testimonials</h2>
+                        <h2><ui:msg description="Main_Testimonials">Testimonials</ui:msg></h2>
                          <div class="media testimonial-inner">
                             <div class="pull-left">
                                 <img class="img-responsive img-circle" src="images/testimonials1.png"/>
                             </div>
                             <div class="media-body">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
-                                <span><strong>-John Doe/</strong> Director of corlate.com</span>
+                                <p><ui:msg description="Main_Testimonial1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt1</ui:msg></p>
+                                <span><strong><ui:msg description="Main_Testimonial_Person1">John Doe1</ui:msg></strong><ui:msg description="Main_Testimonial_Role1">Director of corlate.com1</ui:msg></span>
                             </div>
                          </div>
 
@@ -623,8 +626,8 @@
                                 <img class="img-responsive img-circle" src="images/testimonials1.png"/>
                             </div>
                             <div class="media-body">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
-                                <span><strong>-John Doe/</strong> Director of corlate.com</span>
+                                <p><ui:msg description="Main_Testimonial2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt2</ui:msg></p>
+                                <span><strong><ui:msg description="Main_Testimonial_Person2">John Doe2</ui:msg></strong><ui:msg description="Main_Testimonial_Role2">Director of corlate.com2</ui:msg></span>
                             </div>
                          </div>
 
@@ -638,17 +641,17 @@
     <section id="partner">
         <div class="container">
             <div class="center wow fadeInDown">
-                <h2>Our Partners</h2>
-                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br/> et dolore magna aliqua. Ut enim ad minim veniam</p>
+                <h2><ui:msg description="Main_OurPartners">Our Partners</ui:msg></h2>
+                <p class="lead"><ui:msg description="Main_OurPartners_Description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br/> et dolore magna aliqua. Ut enim ad minim veniam444</ui:msg></p>
             </div>    
 
             <div class="partners">
                 <ul>
-                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms" src="images/partners/partner1.png"/></a></li>
-                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms" src="images/partners/partner2.png"/></a></li>
-                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms" src="images/partners/partner3.png"/></a></li>
-                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1200ms" src="images/partners/partner4.png"/></a></li>
-                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1500ms" src="images/partners/partner5.png"/></a></li>
+                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms" src="http://www.webseoanalytics.com/images/clients/clientlogos/your-logo-here.png"/></a></li>
+                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms" src="http://www.webseoanalytics.com/images/clients/clientlogos/your-logo-here.png"/></a></li>
+                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms" src="http://www.webseoanalytics.com/images/clients/clientlogos/your-logo-here.png"/></a></li>
+                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1200ms" src="http://www.webseoanalytics.com/images/clients/clientlogos/your-logo-here.png"/></a></li>
+                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1500ms" src="http://www.webseoanalytics.com/images/clients/clientlogos/your-logo-here.png"/></a></li>
                 </ul>
             </div>        
         </div><!--/.container-->
@@ -663,8 +666,8 @@
                             <i class="fa fa-phone"></i>
                         </div>
                         <div class="media-body">
-                            <h2>Have a question or need a custom quote?</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation +0123 456 70 80</p>
+                            <h2><ui:msg description="Main_Questions">Have a question or need a custom quote?</ui:msg></h2>
+                            <p><ui:msg description="Main_Questions_Description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation +0123 456 70 80</ui:msg></p>
                         </div>
                     </div>
                 </div>
@@ -677,60 +680,40 @@
             <div class="row">
                 <div class="col-md-3 col-sm-6">
                     <div class="widget">
-                        <h3>Company</h3>
+                        <h3><ui:msg description="Main_Bottom_Menu1">Company</ui:msg></h3>
                         <ul>
                             <li><a href="#">About us</a></li>
                             <li><a href="#">We are hiring</a></li>
-                            <li><a href="#">Meet the team</a></li>
-                            <li><a href="#">Copyright</a></li>
-                            <li><a href="#">Terms of use</a></li>
-                            <li><a href="#">Privacy policy</a></li>
-                            <li><a href="#">Contact us</a></li>
                         </ul>
                     </div>    
                 </div><!--/.col-md-3-->
 
                 <div class="col-md-3 col-sm-6">
                     <div class="widget">
-                        <h3>Support</h3>
+                        <h3><ui:msg description="Main_Bottom_Menu2">Support</ui:msg></h3>
                         <ul>
                             <li><a href="#">Faq</a></li>
                             <li><a href="#">Blog</a></li>
-                            <li><a href="#">Forum</a></li>
-                            <li><a href="#">Documentation</a></li>
-                            <li><a href="#">Refund policy</a></li>
-                            <li><a href="#">Ticket system</a></li>
-                            <li><a href="#">Billing system</a></li>
                         </ul>
                     </div>    
                 </div><!--/.col-md-3-->
 
                 <div class="col-md-3 col-sm-6">
                     <div class="widget">
-                        <h3>Developers</h3>
+                        <h3><ui:msg description="Main_Bottom_Menu3">Developers</ui:msg></h3>
                         <ul>
                             <li><a href="#">Web Development</a></li>
                             <li><a href="#">SEO Marketing</a></li>
-                            <li><a href="#">Theme</a></li>
-                            <li><a href="#">Development</a></li>
-                            <li><a href="#">Email Marketing</a></li>
-                            <li><a href="#">Plugin Development</a></li>
-                            <li><a href="#">Article Writing</a></li>
                         </ul>
                     </div>    
                 </div><!--/.col-md-3-->
 
                 <div class="col-md-3 col-sm-6">
                     <div class="widget">
-                        <h3>Our Partners</h3>
+                        <h3><ui:msg description="Main_Bottom_Menu4">Our Partners</ui:msg></h3>
                         <ul>
                             <li><a href="#">Adipisicing Elit</a></li>
                             <li><a href="#">Eiusmod</a></li>
-                            <li><a href="#">Tempor</a></li>
-                            <li><a href="#">Veniam</a></li>
-                            <li><a href="#">Exercitation</a></li>
-                            <li><a href="#">Ullamco</a></li>
-                            <li><a href="#">Laboris</a></li>
                         </ul>
                     </div>    
                 </div><!--/.col-md-3-->
