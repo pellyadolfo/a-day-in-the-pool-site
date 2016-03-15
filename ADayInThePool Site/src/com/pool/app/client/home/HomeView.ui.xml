@@ -14,7 +14,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6 col-xs-4">
-                        <div class="top-number"><p><i class="fa fa-phone-square"></i>  +0123 456 70 90</p></div>
+                        <div class="top-number"><p><i class="fa fa-phone-square"></i>+0123 456 70 90</p></div>
                     </div>
                     <div class="col-sm-6 col-xs-8">
                        <div class="social">
@@ -52,20 +52,20 @@
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="#home">Home</a></li>
-                        <li><a href="#services"><ui:msg description="Main - Menu - Services">Services</ui:msg></a></li>
-                        <li><a href="#portfolio"><ui:msg description="Main - Menu - Portfolio">Portfolio</ui:msg></a></li>
+                        <li><a href="#services"><ui:msg description="Main_Menu_Services">Services</ui:msg></a></li>
+                        <li><a href="#portfolio"><ui:msg description="Main_Menu_Portfolio">Portfolio</ui:msg></a></li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><ui:msg description="Main - Menu - Pages">Pages</ui:msg><i class="fa fa-angle-down"></i></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><ui:msg description="Main_Menu_Pages">Pages</ui:msg><i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#blogitem"><ui:msg description="Main - Menu - Blog Single">Blog Single</ui:msg></a></li>
-                                <li><a href="#pricing"><ui:msg description="Main - Menu - Pricing">Pricing</ui:msg></a></li>
-                                <li><a href="#error"><ui:msg description="Main - Menu - Error">Error</ui:msg></a></li>
-                                <li><a href="#shortcodes"><ui:msg description="Main - Menu - ShortCodes">Shortcodes</ui:msg></a></li>
+                                <li><a href="#blogitem"><ui:msg description="Main_Menu_Blog Single">Blog Single</ui:msg></a></li>
+                                <li><a href="#pricing"><ui:msg description="Main_Menu_Pricing">Pricing</ui:msg></a></li>
+                                <li><a href="#error"><ui:msg description="Main_Menu_Error">Error</ui:msg></a></li>
+                                <li><a href="#shortcodes"><ui:msg description="Main_Menu_ShortCodes">Shortcodes</ui:msg></a></li>
                             </ul>
                         </li>
-                        <li><a href="#blog"><ui:msg description="Main - Menu - Blog">Blog</ui:msg></a></li> 
-                        <li><a href="#contact"><ui:msg description="Main - Menu - Contact">Contact</ui:msg></a></li>                        
-                        <li><a href="#about"><ui:msg description="Main - Menu - About Us">About Us</ui:msg></a></li>
+                        <li><a href="#blog"><ui:msg description="Main_Menu_Blog">Blog</ui:msg></a></li> 
+                        <li><a href="#contact"><ui:msg description="Main_Menu_Contact">Contact</ui:msg></a></li>                        
+                        <li><a href="#about"><ui:msg description="Main_Menu_About Us">About Us</ui:msg></a></li>
                     </ul>
                 </div>
             </div><!--/.container-->
@@ -155,8 +155,8 @@
     <section id="feature" >
         <div class="container">
            <div class="center wow fadeInDown">
-                <h2><ui:msg description="Main - Caracteristicas">Features</ui:msg></h2>
-                <p class="lead"><ui:msg description="Main - Caracteristica">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br/> et dolore magna aliqua. Ut enim ad minim veniam</ui:msg></p>
+                <h2><ui:msg description="Main_Caracteristicas">Features</ui:msg></h2>
+                <p class="lead"><ui:msg description="Main_Caracteristica">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br/> et dolore magna aliqua. Ut enim ad minim veniam1</ui:msg></p>
             </div>
 
             <div class="row">
@@ -164,48 +164,48 @@
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
                             <i class="fa fa-bullhorn"></i>
-                            <h2><ui:msg description="Main - Button - Title1">Fresh and Clean</ui:msg></h2>
-                            <h3><ui:msg description="Main - Button - Text1">Lorem ipsum dolor sit amet, consectetur adipisicing elit</ui:msg></h3>
+                            <h2><ui:msg description="Main_Button_Title1">Fresh and Clean</ui:msg></h2>
+                            <h3><ui:msg description="Main_Button_Text1">Lorem ipsum dolor sit amet, consectetur adipisicing elit1</ui:msg></h3>
                         </div>
                     </div><!--/.col-md-4-->
 
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
                             <i class="fa fa-comments"></i>
-                            <h2><ui:msg description="Main - Button - Title2">Retina ready</ui:msg></h2>
-                            <h3><ui:msg description="Main - Button - Text2">Lorem ipsum dolor sit amet, consectetur adipisicing elit</ui:msg></h3>
+                            <h2><ui:msg description="Main_Button_Title2">Retina ready</ui:msg></h2>
+                            <h3><ui:msg description="Main_Button_Text2">Lorem ipsum dolor sit amet, consectetur adipisicing elit2</ui:msg></h3>
                         </div>
                     </div><!--/.col-md-4-->
 
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
                             <i class="fa fa-cloud-download"></i>
-                            <h2><ui:msg description="Main - Button - Title3">Easy to customize</ui:msg></h2>
-                            <h3><ui:msg description="Main - Button - Text3">Lorem ipsum dolor sit amet, consectetur adipisicing elit</ui:msg></h3>
+                            <h2><ui:msg description="Main_Button_Title3">Easy to customize</ui:msg></h2>
+                            <h3><ui:msg description="Main_Button_Text3">Lorem ipsum dolor sit amet, consectetur adipisicing elit3</ui:msg></h3>
                         </div>
                     </div><!--/.col-md-4-->
                 
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
                             <i class="fa fa-leaf"></i>
-                            <h2><ui:msg description="Main - Button - Title4">Adipisicing elit</ui:msg></h2>
-                            <h3><ui:msg description="Main - Button - Text4">Lorem ipsum dolor sit amet, consectetur adipisicing elit</ui:msg></h3>
+                            <h2><ui:msg description="Main_Button_Title4">Adipisicing elit</ui:msg></h2>
+                            <h3><ui:msg description="Main_Button_Text4">Lorem ipsum dolor sit amet, consectetur adipisicing elit4</ui:msg></h3>
                         </div>
                     </div><!--/.col-md-4-->
 
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
                             <i class="fa fa-cogs"></i>
-                            <h2><ui:msg description="Main - Button - Title5">Sed do eiusmod</ui:msg></h2>
-                            <h3><ui:msg description="Main - Button - Text5">Lorem ipsum dolor sit amet, consectetur adipisicing elit</ui:msg></h3>
+                            <h2><ui:msg description="Main_Button_Title5">Sed do eiusmod</ui:msg></h2>
+                            <h3><ui:msg description="Main_Button_Text5">Lorem ipsum dolor sit amet, consectetur adipisicing elit5</ui:msg></h3>
                         </div>
                     </div><!--/.col-md-4-->
 
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
                             <i class="fa fa-heart"></i>
-                            <h2><ui:msg description="Main - Button - Title6">Labore et dolore</ui:msg></h2>
-                            <h3><ui:msg description="Main - Button - Text6">Lorem ipsum dolor sit amet, consectetur adipisicing elit</ui:msg></h3>
+                            <h2><ui:msg description="Main_Button_Title6">Labore et dolore</ui:msg></h2>
+                            <h3><ui:msg description="Main_Button_Text6">Lorem ipsum dolor sit amet, consectetur adipisicing elit6</ui:msg></h3>
                         </div>
                     </div><!--/.col-md-4-->
                 </div><!--/.services-->
@@ -216,8 +216,8 @@
     <section id="recent-works">
         <div class="container">
             <div class="center wow fadeInDown">
-                <h2><ui:msg description="Main - RecentWorks">Recent Works</ui:msg></h2>
-                <p class="lead"><ui:msg description="Main - RecentWork">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br/> et dolore magna aliqua. Ut enim ad minim veniam</ui:msg></p>
+                <h2><ui:msg description="Main_RecentWorks">Recent Works</ui:msg></h2>
+                <p class="lead"><ui:msg description="Main_RecentWork">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br/> et dolore magna aliqua. Ut enim ad minim veniam111</ui:msg></p>
             </div>
 
             <div class="row">
@@ -226,9 +226,9 @@
                         <img class="img-responsive" src="images/portfolio/recent/item1.png" alt=""/>
                         <div class="overlay">
                             <div class="recent-work-inner">
-                                <h3><ui:msg description="Main - RecentWork - Title1"><a href="#">Business theme</a></ui:msg></h3>
-                                <p><ui:msg description="Main - RecentWork - Text1">There are many variations of passages of Lorem Ipsum available, but the majority</ui:msg></p>
-                                <a class="preview" href="images/portfolio/full/item1.png" rel="prettyPhoto"><i class="fa fa-eye"></i><ui:msg description="Main - RecentWork - View">View</ui:msg></a>
+                                <h3><ui:msg description="Main_RecentWork_Title1"><a href="#">Business theme</a></ui:msg></h3>
+                                <p><ui:msg description="Main_RecentWork_Text1">There are many variations of passages of Lorem Ipsum available, but the majority</ui:msg></p>
+                                <a class="preview" href="images/portfolio/full/item1.png" rel="prettyPhoto"><i class="fa fa-eye"></i><ui:msg description="Main_RecentWork_View">View</ui:msg></a>
                             </div> 
                         </div>
                     </div>
@@ -239,9 +239,9 @@
                         <img class="img-responsive" src="images/portfolio/recent/item2.png" alt=""/>
                         <div class="overlay">
                             <div class="recent-work-inner">
-                                <h3><a href="#"><ui:msg description="Main - RecentWork - Title2">Business theme</ui:msg></a></h3>
-                                <p><ui:msg description="Main - RecentWork - Text2">There are many variations of passages of Lorem Ipsum available, but the majority</ui:msg></p>
-                                <a class="preview" href="images/portfolio/full/item2.png" rel="prettyPhoto"><i class="fa fa-eye"></i><ui:msg description="Main - RecentWork - View">View</ui:msg></a>
+                                <h3><a href="#"><ui:msg description="Main_RecentWork_Title2">Business theme</ui:msg></a></h3>
+                                <p><ui:msg description="Main_RecentWork_Text2">There are many variations of passages of Lorem Ipsum available, but the majority</ui:msg></p>
+                                <a class="preview" href="images/portfolio/full/item2.png" rel="prettyPhoto"><i class="fa fa-eye"></i><ui:msg description="Main_RecentWork_View">View</ui:msg></a>
                             </div> 
                         </div>
                     </div>
@@ -252,9 +252,9 @@
                         <img class="img-responsive" src="images/portfolio/recent/item3.png" alt=""/>
                         <div class="overlay">
                             <div class="recent-work-inner">
-                                <h3><a href="#"><ui:msg description="Main - RecentWork - Title3">Business theme</ui:msg></a></h3>
-                                <p><ui:msg description="Main - RecentWork - Text3">There are many variations of passages of Lorem Ipsum available, but the majority</ui:msg></p>
-                                <a class="preview" href="images/portfolio/full/item3.png" rel="prettyPhoto"><i class="fa fa-eye"></i><ui:msg description="Main - RecentWork - View">View</ui:msg></a>
+                                <h3><a href="#"><ui:msg description="Main_RecentWork_Title3">Business theme</ui:msg></a></h3>
+                                <p><ui:msg description="Main_RecentWork_Text3">There are many variations of passages of Lorem Ipsum available, but the majority</ui:msg></p>
+                                <a class="preview" href="images/portfolio/full/item3.png" rel="prettyPhoto"><i class="fa fa-eye"></i><ui:msg description="Main_RecentWork_View">View</ui:msg></a>
                             </div> 
                         </div>
                     </div>
@@ -265,9 +265,9 @@
                         <img class="img-responsive" src="images/portfolio/recent/item4.png" alt=""/>
                         <div class="overlay">
                             <div class="recent-work-inner">
-                                <h3><a href="#"><ui:msg description="Main - RecentWork - Title4">Business theme</ui:msg></a></h3>
-                                <p><ui:msg description="Main - RecentWork - Text4">There are many variations of passages of Lorem Ipsum available, but the majority</ui:msg></p>
-                                <a class="preview" href="images/portfolio/full/item4.png" rel="prettyPhoto"><i class="fa fa-eye"></i><ui:msg description="Main - RecentWork - View">View</ui:msg></a>
+                                <h3><a href="#"><ui:msg description="Main_RecentWork_Title4">Business theme</ui:msg></a></h3>
+                                <p><ui:msg description="Main_RecentWork_Text4">There are many variations of passages of Lorem Ipsum available, but the majority</ui:msg></p>
+                                <a class="preview" href="images/portfolio/full/item4.png" rel="prettyPhoto"><i class="fa fa-eye"></i><ui:msg description="Main_RecentWork_View">View</ui:msg></a>
                             </div> 
                         </div>
                     </div>
@@ -278,9 +278,9 @@
                         <img class="img-responsive" src="images/portfolio/recent/item5.png" alt=""/>
                         <div class="overlay">
                             <div class="recent-work-inner">
-                                <h3><a href="#"><ui:msg description="Main - RecentWork - Title5">Business theme</ui:msg></a></h3>
-                                <p><ui:msg description="Main - RecentWork - Text5">There are many variations of passages of Lorem Ipsum available, but the majority</ui:msg></p>
-                                <a class="preview" href="images/portfolio/full/item5.png" rel="prettyPhoto"><i class="fa fa-eye"></i><ui:msg description="Main - RecentWork - View">View</ui:msg></a>
+                                <h3><a href="#"><ui:msg description="Main_RecentWork_Title5">Business theme</ui:msg></a></h3>
+                                <p><ui:msg description="Main_RecentWork_Text5">There are many variations of passages of Lorem Ipsum available, but the majority</ui:msg></p>
+                                <a class="preview" href="images/portfolio/full/item5.png" rel="prettyPhoto"><i class="fa fa-eye"></i><ui:msg description="Main_RecentWork_View">View</ui:msg></a>
                             </div> 
                         </div>
                     </div>
@@ -291,9 +291,9 @@
                         <img class="img-responsive" src="images/portfolio/recent/item6.png" alt=""/>
                         <div class="overlay">
                             <div class="recent-work-inner">
-                                <h3><a href="#"><ui:msg description="Main - RecentWork - Title6">Business theme</ui:msg></a></h3>
-                                <p><ui:msg description="Main - RecentWork - Text6">There are many variations of passages of Lorem Ipsum available, but the majority</ui:msg></p>
-                                <a class="preview" href="images/portfolio/full/item6.png" rel="prettyPhoto"><i class="fa fa-eye"></i><ui:msg description="Main - RecentWork - View">View</ui:msg></a>
+                                <h3><a href="#"><ui:msg description="Main_RecentWork_Title6">Business theme</ui:msg></a></h3>
+                                <p><ui:msg description="Main_RecentWork_Text6">There are many variations of passages of Lorem Ipsum available, but the majority</ui:msg></p>
+                                <a class="preview" href="images/portfolio/full/item6.png" rel="prettyPhoto"><i class="fa fa-eye"></i><ui:msg description="Main_RecentWork_View">View</ui:msg></a>
                             </div> 
                         </div>
                     </div>
@@ -304,9 +304,9 @@
                         <img class="img-responsive" src="images/portfolio/recent/item7.png" alt=""/>
                         <div class="overlay">
                             <div class="recent-work-inner">
-                                <h3><a href="#"><ui:msg description="Main - RecentWork - Title7">Business theme</ui:msg></a></h3>
-                                <p><ui:msg description="Main - RecentWork - Text7">There are many variations of passages of Lorem Ipsum available, but the majority</ui:msg></p>
-                                <a class="preview" href="images/portfolio/full/item7.png" rel="prettyPhoto"><i class="fa fa-eye"></i><ui:msg description="Main - RecentWork - View">View</ui:msg></a>
+                                <h3><a href="#"><ui:msg description="Main_RecentWork_Title7">Business theme</ui:msg></a></h3>
+                                <p><ui:msg description="Main_RecentWork_Text7">There are many variations of passages of Lorem Ipsum available, but the majority</ui:msg></p>
+                                <a class="preview" href="images/portfolio/full/item7.png" rel="prettyPhoto"><i class="fa fa-eye"></i><ui:msg description="Main_RecentWork_View">View</ui:msg></a>
                             </div> 
                         </div>
                     </div>
@@ -317,9 +317,9 @@
                         <img class="img-responsive" src="images/portfolio/recent/item8.png" alt=""/>
                         <div class="overlay">
                             <div class="recent-work-inner">
-                                <h3><a href="#"><ui:msg description="Main - RecentWork - Title8">Business theme</ui:msg></a></h3>
-                                <p><ui:msg description="Main - RecentWork - Text8">There are many variations of passages of Lorem Ipsum available, but the majority</ui:msg></p>
-                                <a class="preview" href="images/portfolio/full/item8.png" rel="prettyPhoto"><i class="fa fa-eye"></i><ui:msg description="Main - RecentWork - View">View</ui:msg></a>
+                                <h3><a href="#"><ui:msg description="Main_RecentWork_Title8">Business theme</ui:msg></a></h3>
+                                <p><ui:msg description="Main_RecentWork_Text8">There are many variations of passages of Lorem Ipsum available, but the majority</ui:msg></p>
+                                <a class="preview" href="images/portfolio/full/item8.png" rel="prettyPhoto"><i class="fa fa-eye"></i><ui:msg description="Main_RecentWork_View">View</ui:msg></a>
                             </div> 
                         </div>
                     </div>
@@ -331,8 +331,8 @@
     <section id="services" class="service-item">
 	   <div class="container">
             <div class="center wow fadeInDown">
-                <h2><ui:msg description="Main - OurServices">Our Service</ui:msg></h2>
-                <p class="lead"><ui:msg description="Main - OurService">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br/> et dolore magna aliqua. Ut enim ad minim veniam</ui:msg></p>
+                <h2><ui:msg description="Main_OurServices">Our Service</ui:msg></h2>
+                <p class="lead"><ui:msg description="Main_OurService">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br/> et dolore magna aliqua. Ut enim ad minim veniam</ui:msg></p>
             </div>
 
             <div class="row">
@@ -343,8 +343,8 @@
                             <img class="img-responsive" src="images/services/services1.png"/>
                         </div>
                         <div class="media-body">
-                            <h3 class="media-heading"><ui:msg description="Main - OurService - Title1">SEO Marketing</ui:msg></h3>
-                            <p><ui:msg description="Main - OurService - Text1">Lorem ipsum dolor sit ame consectetur adipisicing elit</ui:msg></p>
+                            <h3 class="media-heading"><ui:msg description="Main_OurService_Title1">SEO Marketing</ui:msg></h3>
+                            <p><ui:msg description="Main_OurService_Text1">Lorem ipsum dolor sit ame consectetur adipisicing elit</ui:msg></p>
                         </div>
                     </div>
                 </div>
@@ -355,8 +355,8 @@
                             <img class="img-responsive" src="images/services/services2.png"/>
                         </div>
                         <div class="media-body">
-                            <h3 class="media-heading"><ui:msg description="Main - OurService - Title2">SEO Marketing</ui:msg></h3>
-                            <p><ui:msg description="Main - OurService - Text2">Lorem ipsum dolor sit ame consectetur adipisicing elit</ui:msg></p>
+                            <h3 class="media-heading"><ui:msg description="Main_OurService_Title2">SEO Marketing</ui:msg></h3>
+                            <p><ui:msg description="Main_OurService_Text2">Lorem ipsum dolor sit ame consectetur adipisicing elit</ui:msg></p>
                         </div>
                     </div>
                 </div>
@@ -367,8 +367,8 @@
                             <img class="img-responsive" src="images/services/services3.png"/>
                         </div>
                         <div class="media-body">
-                            <h3 class="media-heading"><ui:msg description="Main - OurService - Title3">SEO Marketing</ui:msg></h3>
-                            <p><ui:msg description="Main - OurService - Text3">Lorem ipsum dolor sit ame consectetur adipisicing elit</ui:msg></p>
+                            <h3 class="media-heading"><ui:msg description="Main_OurService_Title3">SEO Marketing</ui:msg></h3>
+                            <p><ui:msg description="Main_OurService_Text3">Lorem ipsum dolor sit ame consectetur adipisicing elit</ui:msg></p>
                         </div>
                     </div>
                 </div>  
@@ -379,8 +379,8 @@
                             <img class="img-responsive" src="images/services/services4.png"/>
                         </div>
                         <div class="media-body">
-                            <h3 class="media-heading"><ui:msg description="Main - OurService - Title4">SEO Marketing</ui:msg></h3>
-                            <p><ui:msg description="Main - OurService - Text4">Lorem ipsum dolor sit ame consectetur adipisicing elit</ui:msg></p>
+                            <h3 class="media-heading"><ui:msg description="Main_OurService_Title4">SEO Marketing</ui:msg></h3>
+                            <p><ui:msg description="Main_OurService_Text4">Lorem ipsum dolor sit ame consectetur adipisicing elit</ui:msg></p>
                         </div>
                     </div>
                 </div>
@@ -391,8 +391,8 @@
                             <img class="img-responsive" src="images/services/services5.png"/>
                         </div>
                         <div class="media-body">
-                            <h3 class="media-heading"><ui:msg description="Main - OurService - Title5">SEO Marketing</ui:msg></h3>
-                            <p><ui:msg description="Main - OurService - Text5">Lorem ipsum dolor sit ame consectetur adipisicing elit</ui:msg></p>
+                            <h3 class="media-heading"><ui:msg description="Main_OurService_Title5">SEO Marketing</ui:msg></h3>
+                            <p><ui:msg description="Main_OurService_Text5">Lorem ipsum dolor sit ame consectetur adipisicing elit</ui:msg></p>
                         </div>
                     </div>
                 </div>
@@ -403,8 +403,8 @@
                             <img class="img-responsive" src="images/services/services6.png"/>
                         </div>
                         <div class="media-body">
-                            <h3 class="media-heading"><ui:msg description="Main - OurService - Title6">SEO Marketing</ui:msg></h3>
-                            <p><ui:msg description="Main - OurService - Text6">Lorem ipsum dolor sit ame consectetur adipisicing elit</ui:msg></p>
+                            <h3 class="media-heading"><ui:msg description="Main_OurService_Title6">SEO Marketing</ui:msg></h3>
+                            <p><ui:msg description="Main_OurService_Text6">Lorem ipsum dolor sit ame consectetur adipisicing elit</ui:msg></p>
                         </div>
                     </div>
                 </div>                                                
@@ -417,11 +417,11 @@
             <div class="row">
                 <div class="col-sm-6 wow fadeInDown">
                     <div class="skill">
-                        <h2><ui:msg description="Main - OurSkills">Our Skills</ui:msg></h2>
-                        <p><ui:msg description="Main - OurSkill">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</ui:msg></p>
+                        <h2><ui:msg description="Main_OurSkills">Our Skills</ui:msg></h2>
+                        <p><ui:msg description="Main_OurSkill">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</ui:msg></p>
 
                         <div class="progress-wrap">
-                            <h3><ui:msg description="Main - OurSkills - Title1">Graphic Design</ui:msg></h3>
+                            <h3><ui:msg description="Main_OurSkills_Title1">Graphic Design</ui:msg></h3>
                             <div class="progress">
                               <div class="progress-bar  color1" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
                                 <span class="bar-width">85%</span>
@@ -431,7 +431,7 @@
                         </div>
 
                         <div class="progress-wrap">
-                            <h3><ui:msg description="Main - OurSkills - Title2">HTML</ui:msg></h3>
+                            <h3><ui:msg description="Main_OurSkills_Title2">HTML</ui:msg></h3>
                             <div class="progress">
                               <div class="progress-bar color2" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 95%">
                                <span class="bar-width">95%</span>
@@ -440,7 +440,7 @@
                         </div>
 
                         <div class="progress-wrap">
-                            <h3><ui:msg description="Main - OurSkills - Title3">CSS</ui:msg></h3>
+                            <h3><ui:msg description="Main_OurSkills_Title3">CSS</ui:msg></h3>
                             <div class="progress">
                               <div class="progress-bar color3" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
                                 <span class="bar-width">80%</span>
@@ -449,7 +449,7 @@
                         </div>
 
                         <div class="progress-wrap">
-                            <h3><ui:msg description="Main - OurSkills - Title4">Wordpress</ui:msg></h3>
+                            <h3><ui:msg description="Main_OurSkills_Title4">Wordpress</ui:msg></h3>
                             <div class="progress">
                               <div class="progress-bar color4" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
                                 <span class="bar-width">90%</span>
@@ -462,14 +462,14 @@
 
                 <div class="col-sm-6 wow fadeInDown">
                     <div class="accordion">
-                        <h2><ui:msg description="Main - LikeUs">Why People like us?</ui:msg></h2>
+                        <h2><ui:msg description="Main_LikeUs">Why People like us?</ui:msg></h2>
                         <div class="panel-group" id="accordion1">
                         
                           <div class="panel panel-default">
                             <div class="panel-heading active">
                               <h3 class="panel-title">
                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne1">
-                                  <ui:msg description="Main - LikeUs - Title11">Lorem ipsum dolor sit amet</ui:msg>
+                                  <ui:msg description="Main_LikeUs_Title11">Lorem ipsum dolor sit amet</ui:msg>
                                   <i class="fa fa-angle-right pull-right"></i>
                                 </a>
                               </h3>
@@ -742,7 +742,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    Copyright 2013 <a target="_blank" href="http://shapebootstrap.net/" title="Free Twitter Bootstrap WordPress Themes and HTML templates">ShapeBootstrap</a>. All Rights Reserved.
+                    Copyright 2015 <a target="_blank" href="http://www.classifiapps.com/" title="Free Twitter Bootstrap WordPress Themes and HTML templates">ClassifiApps</a>. All Rights Reserved.
                 </div>
                 <div class="col-sm-6">
                     <ul class="pull-right">

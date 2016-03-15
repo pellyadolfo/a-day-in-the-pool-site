@@ -114,7 +114,7 @@ a:focus {
   margin-left: 20px;
 }
 
-body > section {
+body > div > div > section {
   padding: 70px 0;
 }
 
