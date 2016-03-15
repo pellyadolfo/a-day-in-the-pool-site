@@ -724,14 +724,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    Copyright 2015 <a target="_blank" href="http://www.classifiapps.com/" title="Free Twitter Bootstrap WordPress Themes and HTML templates">ClassifiApps</a>. All Rights Reserved.
+                    Copyright 2015 <a target="_blank" href="http://www.classifiapps.com/" title="Free Twitter Bootstrap WordPress Themes and HTML templates">ClassifiApps</a>. <ui:msg description="Botton_Menu_Rights">All Rights Reserved</ui:msg>.
                 </div>
                 <div class="col-sm-6">
                     <ul class="pull-right">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Faq</a></li>
-                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#home"><ui:msg description="Botton_Menu_Home">Home</ui:msg></a></li>
+                        <li><a href="#faq"><ui:msg description="Botton_Menu_Faq">Faq</ui:msg></a></li>
+                        <li><a href="#about"><ui:msg description="Botton_Menu_About">About Us</ui:msg></a></li>
+                        <li><a href="#contact"><ui:msg description="Botton_Menu_Contact">Contact Us</ui:msg></a></li>
                     </ul>
                 </div>
             </div>
