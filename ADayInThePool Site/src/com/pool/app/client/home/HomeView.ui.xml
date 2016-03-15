@@ -52,7 +52,7 @@
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="#home">Home</a></li>
-                        <li><a href="#services"><ui:msg description="Main_Menu_Services">Services</ui:msg></a></li>
+                        <!-- li><a href="#services"><ui:msg description="Main_Menu_Services">Services</ui:msg></a></li-->
                         <li><a href="#portfolio"><ui:msg description="Main_Menu_Portfolio">Portfolio</ui:msg></a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><ui:msg description="Main_Menu_Pages">Pages</ui:msg><i class="fa fa-angle-down"></i></a>
