@@ -679,40 +679,40 @@
             <div class="row">
                 <div class="col-md-3 col-sm-6">
                     <div class="widget">
-                        <h3><ui:msg description="Main_Bottom_Menu1">Company</ui:msg></h3>
+                        <h3><ui:msg description="Bottom_Menu1">Company</ui:msg></h3>
                         <ul>
-                            <li><a href="#">About us</a></li>
-                            <li><a href="#">We are hiring</a></li>
+                            <li><a href="#"><ui:msg description="Botton_Menu_About">About us</ui:msg></a></li>
+                            <li><a href="#"><ui:msg description="Botton_Menu_Jobs">We are hiring</ui:msg></a></li>
                         </ul>
                     </div>    
                 </div><!--/.col-md-3-->
 
                 <div class="col-md-3 col-sm-6">
                     <div class="widget">
-                        <h3><ui:msg description="Main_Bottom_Menu2">Support</ui:msg></h3>
+                        <h3><ui:msg description="Bottom_Menu2">Support</ui:msg></h3>
                         <ul>
-                            <li><a href="#">Faq</a></li>
-                            <li><a href="#">Blog</a></li>
+                            <li><a href="#"><ui:msg description="Botton_Menu_Faq">Faq</ui:msg></a></li>
+                            <li><a href="#"><ui:msg description="Botton_Menu_Blog">Blog</ui:msg></a></li>
                         </ul>
                     </div>    
                 </div><!--/.col-md-3-->
 
                 <div class="col-md-3 col-sm-6">
                     <div class="widget">
-                        <h3><ui:msg description="Main_Bottom_Menu3">Developers</ui:msg></h3>
+                        <h3><ui:msg description="Bottom_Menu3">Developers</ui:msg></h3>
                         <ul>
-                            <li><a href="#">Web Development</a></li>
-                            <li><a href="#">SEO Marketing</a></li>
+                            <li><a href="#"><ui:msg description="Botton_Menu_Faq">Web Development</ui:msg></a></li>
+                            <li><a href="#"><ui:msg description="Botton_Menu_Faq">SEO Marketing</ui:msg></a></li>
                         </ul>
                     </div>    
                 </div><!--/.col-md-3-->
 
                 <div class="col-md-3 col-sm-6">
                     <div class="widget">
-                        <h3><ui:msg description="Main_Bottom_Menu4">Our Partners</ui:msg></h3>
+                        <h3><ui:msg description="Bottom_Menu4">Our Partners</ui:msg></h3>
                         <ul>
-                            <li><a href="#">Adipisicing Elit</a></li>
-                            <li><a href="#">Eiusmod</a></li>
+                            <li><a href="#"><ui:msg description="Botton_Menu_Faq">Adipisicing Elit</ui:msg></a></li>
+                            <li><a href="#"><ui:msg description="Botton_Menu_Faq">Eiusmod</ui:msg></a></li>
                         </ul>
                     </div>    
                 </div><!--/.col-md-3-->

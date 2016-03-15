@@ -179,60 +179,40 @@
             <div class="row">
                 <div class="col-md-3 col-sm-6">
                     <div class="widget">
-                        <h3>Company</h3>
+                        <h3><ui:msg description="Bottom_Menu1">Company</ui:msg></h3>
                         <ul>
-                            <li><a href="#">About us</a></li>
-                            <li><a href="#">We are hiring</a></li>
-                            <li><a href="#">Meet the team</a></li>
-                            <li><a href="#">Copyright</a></li>
-                            <li><a href="#">Terms of use</a></li>
-                            <li><a href="#">Privacy policy</a></li>
-                            <li><a href="#">Contact us</a></li>
+                            <li><a href="#"><ui:msg description="Botton_Menu_About">About us</ui:msg></a></li>
+                            <li><a href="#"><ui:msg description="Botton_Menu_Jobs">We are hiring</ui:msg></a></li>
                         </ul>
                     </div>    
                 </div><!--/.col-md-3-->
 
                 <div class="col-md-3 col-sm-6">
                     <div class="widget">
-                        <h3>Support</h3>
+                        <h3><ui:msg description="Bottom_Menu2">Support</ui:msg></h3>
                         <ul>
-                            <li><a href="#">Faq</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Forum</a></li>
-                            <li><a href="#">Documentation</a></li>
-                            <li><a href="#">Refund policy</a></li>
-                            <li><a href="#">Ticket system</a></li>
-                            <li><a href="#">Billing system</a></li>
+                            <li><a href="#"><ui:msg description="Botton_Menu_Faq">Faq</ui:msg></a></li>
+                            <li><a href="#"><ui:msg description="Botton_Menu_Blog">Blog</ui:msg></a></li>
                         </ul>
                     </div>    
                 </div><!--/.col-md-3-->
 
                 <div class="col-md-3 col-sm-6">
                     <div class="widget">
-                        <h3>Developers</h3>
+                        <h3><ui:msg description="Bottom_Menu3">Developers</ui:msg></h3>
                         <ul>
-                            <li><a href="#">Web Development</a></li>
-                            <li><a href="#">SEO Marketing</a></li>
-                            <li><a href="#">Theme</a></li>
-                            <li><a href="#">Development</a></li>
-                            <li><a href="#">Email Marketing</a></li>
-                            <li><a href="#">Plugin Development</a></li>
-                            <li><a href="#">Article Writing</a></li>
+                            <li><a href="#"><ui:msg description="Botton_Menu_Faq">Web Development</ui:msg></a></li>
+                            <li><a href="#"><ui:msg description="Botton_Menu_Faq">SEO Marketing</ui:msg></a></li>
                         </ul>
                     </div>    
                 </div><!--/.col-md-3-->
 
                 <div class="col-md-3 col-sm-6">
                     <div class="widget">
-                        <h3>Our Partners</h3>
+                        <h3><ui:msg description="Bottom_Menu4">Our Partners</ui:msg></h3>
                         <ul>
-                            <li><a href="#">Adipisicing Elit</a></li>
-                            <li><a href="#">Eiusmod</a></li>
-                            <li><a href="#">Tempor</a></li>
-                            <li><a href="#">Veniam</a></li>
-                            <li><a href="#">Exercitation</a></li>
-                            <li><a href="#">Ullamco</a></li>
-                            <li><a href="#">Laboris</a></li>
+                            <li><a href="#"><ui:msg description="Botton_Menu_Faq">Adipisicing Elit</ui:msg></a></li>
+                            <li><a href="#"><ui:msg description="Botton_Menu_Faq">Eiusmod</ui:msg></a></li>
                         </ul>
                     </div>    
                 </div><!--/.col-md-3-->
