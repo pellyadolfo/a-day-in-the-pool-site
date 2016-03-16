@@ -51,19 +51,19 @@
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
                         <li><a href="#home">Home</a></li>
-                        <!-- li><a href="#services"><ui:msg description="BlogView - Menu - Services">Services</ui:msg></a></li-->
-                        <li><a href="#portfolio"><ui:msg description="BlogView - Menu - Portfolio">Portfolio</ui:msg></a></li>
+                        <!-- li><a href="#services"><ui:msg description="Top_Menu_Services">Services</ui:msg></a></li-->
+                        <li><a href="#portfolio"><ui:msg description="Top_Menu_Portfolio">Portfolio</ui:msg></a></li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><ui:msg description="BlogView - Menu - Pages">Pages</ui:msg><i class="fa fa-angle-down"></i></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><ui:msg description="Top_Menu_Pages">Pages</ui:msg><i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#blogitem"><ui:msg description="BlogView - Menu - Blog Single">Blog Single</ui:msg></a></li>
-                                <li><a href="#pricing"><ui:msg description="BlogView - Menu - Pricing">Pricing</ui:msg></a></li>
-                                <li><a href="#shortcodes"><ui:msg description="BlogView - Menu - ShortCodes">Shortcodes</ui:msg></a></li>
+                                <li><a href="#blogitem"><ui:msg description="Top_Menu_Blog Single">Blog Single</ui:msg></a></li>
+                                <li><a href="#pricing"><ui:msg description="Top_Menu_Pricing">Pricing</ui:msg></a></li>
+                                <li><a href="#shortcodes"><ui:msg description="Top_Menu_ShortCodes">Shortcodes</ui:msg></a></li>
                             </ul>
                         </li>
-                        <li class="active"><a href="#blog"><ui:msg description="BlogView - Menu - Blog">Blog</ui:msg></a></li> 
-                        <li><a href="#contact"><ui:msg description="BlogView - Menu - Contact">Contact</ui:msg></a></li>                        
-                        <li><a href="#about"><ui:msg description="BlogView - Menu - About Us">About Us</ui:msg></a></li>
+                        <li class="active"><a href="#blog"><ui:msg description="Top_Menu_Blog">Blog</ui:msg></a></li> 
+                        <li><a href="#contact"><ui:msg description="Top_Menu_Contact">Contact</ui:msg></a></li>                        
+                        <li><a href="#about"><ui:msg description="Top_Menu_About Us">About Us</ui:msg></a></li>
                     </ul>
                 </div>
             </div><!--/.container-->
