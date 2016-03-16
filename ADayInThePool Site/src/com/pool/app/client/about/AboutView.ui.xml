@@ -55,8 +55,8 @@
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><ui:msg description="Top_Menu_Pages">Pages</ui:msg><i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#pricing"><ui:msg description="Top_Menu_Pricing">Pricing</ui:msg></a></li>
                                 <li><a href="#shortcodes"><ui:msg description="Top_Menu_ShortCodes">Shortcodes</ui:msg></a></li>
+                                <li><a href="#pricing"><ui:msg description="Top_Menu_Pricing">Pricing</ui:msg></a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
@@ -78,7 +78,7 @@
         <div class="container">
 			<div class="center wow fadeInDown">
 				<h2><ui:msg description="About - Company">About Corlate</ui:msg></h2>
-				<p class="lead"><ui:msg description="About - Company - Description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br/> et dolore magna aliqua. Ut enim ad minim veniam</ui:msg></p>
+				<p class="lead"><ui:msg description="About - Company - Description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br/> et dolore magna aliqua. Ut enim ad minim veniam3435</ui:msg></p>
 			</div>
 			
 			<!-- about us slider -->
