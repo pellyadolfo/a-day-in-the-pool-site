@@ -59,13 +59,7 @@
                                 <li><a href="#pricing"><ui:msg description="Top_Menu_Pricing">Pricing</ui:msg></a></li>
                             </ul>
                         </li>
-                        <li class="dropdown">
-                            <a href="#blog" class="dropdown-toggle" data-toggle="dropdown"><ui:msg description="Top_Menu_Blog">Blog</ui:msg><i class="fa fa-angle-down"></i></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#blogitem"><ui:msg description="Top_Menu_Blog_Item">Blog Item</ui:msg></a></li>
-		                        <li><a href="#blog"><ui:msg description="Top_Menu_Blog">Blog</ui:msg></a></li> 
-                            </ul>
-                        </li>
+                        <li><a href="#blog"><ui:msg description="Top_Menu_Blog">Blog</ui:msg></a></li>                      
                         <li><a href="#contact"><ui:msg description="Top_Menu_Contact">Contact</ui:msg></a></li>                        
                         <li class="active"><a href="#about"><ui:msg description="Top_Menu_About Us">About Us</ui:msg></a></li>
                     </ul>
