@@ -83,7 +83,8 @@
                 <li><a class="btn btn-default" href="#" data-filter=".wordpress"><ui:msg description="Portfolio - Type4">Web Development</ui:msg></a></li>
             </ul><!--/#portfolio-filter-->
 
-            <div class="row">
+            <g:FlowPanel ui:field="poolsPanel" addStyleNames="row"></g:FlowPanel>
+            <!-- div class="row">
                 
 				<div class="portfolio-item col-xs-12 col-sm-4 col-md-3">
                 	<div class="recent-work-wrap">
@@ -96,7 +97,7 @@
 							</div> 
 						</div>
 					</div>
-				</div><!--/.portfolio-item-->
+				</div>
 
 				<div class="portfolio-item col-xs-12 col-sm-4 col-md-3">
 					<div class="recent-work-wrap">
@@ -109,7 +110,7 @@
 							</div> 
 						</div>
 					</div>          
-				</div><!--/.portfolio-item-->
+				</div>
 
 				<div class="portfolio-item col-xs-12 col-sm-4 col-md-3">
 					<div class="recent-work-wrap">
@@ -122,7 +123,7 @@
 							</div> 
 						</div>
 					</div>        
-				</div><!--/.portfolio-item-->
+				</div>
 
 				<div class="portfolio-item col-xs-12 col-sm-4 col-md-3">
 					<div class="recent-work-wrap">
@@ -135,7 +136,7 @@
 							</div> 
 						</div>
 					</div>           
-				</div><!--/.portfolio-item-->
+				</div>
           
 				<div class="portfolio-item col-xs-12 col-sm-4 col-md-3">
 					<div class="recent-work-wrap">
@@ -148,7 +149,7 @@
 							</div> 
 						</div>
 					</div>      
-				</div><!--/.portfolio-item-->
+				</div>
 
 				<div class="portfolio-item col-xs-12 col-sm-4 col-md-3">
 					<div class="recent-work-wrap">
@@ -161,7 +162,7 @@
 							</div> 
 						</div>
 					</div>         
-				</div><!--/.portfolio-item-->
+				</div>
 
 				<div class="portfolio-item col-xs-12 col-sm-4 col-md-3">
 					<div class="recent-work-wrap">
@@ -174,7 +175,7 @@
 							</div> 
 						</div>
 					</div>          
-				</div><!--/.portfolio-item-->
+				</div>
 
 				<div class="portfolio-item col-xs-12 col-sm-4 col-md-3">
 					<div class="recent-work-wrap">
@@ -187,9 +188,9 @@
 							</div> 
 						</div>
 					</div>          
-				</div><!--/.portfolio-item-->
+				</div>
                     
-            </div>
+            </div-->
             
             <ul class="pagination pagination-lg">
             	<li><a href="#"><i class="fa fa-long-arrow-left"></i>Previous Page</a></li>
