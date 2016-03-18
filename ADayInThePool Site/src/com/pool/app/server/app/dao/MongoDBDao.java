@@ -58,7 +58,7 @@ public class MongoDBDao extends AServicesFacade {
 		if (db == null || mongoClient == null) {
 			System.out.println("opening");
 			mongoClient = new MongoClient( "localhost" , 27017 );
-			db = mongoClient.getDatabase( "comparephone" );
+			db = mongoClient.getDatabase( "pool" );
 		}
 				
 		return db.getCollection(name);
