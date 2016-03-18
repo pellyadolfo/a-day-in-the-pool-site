@@ -1,14 +1,13 @@
 package com.pool.app.server.app.dao;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 import org.bson.Document;
 
-import com.mongodb.BasicDBObject;
+import com.mongodb.Block;
 import com.mongodb.MongoClient;
-import com.mongodb.client.AggregateIterable;
+import com.mongodb.client.FindIterable;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
 import com.pool.app.data.Pool;
@@ -20,17 +19,22 @@ public class MongoDBDao extends AServicesFacade {
 	@Override
 	public List<Pool> getPoolsImpl(GetPoolsRequest action) {
 		// run query
-		BasicDBObject group = new BasicDBObject("$group", new BasicDBObject("_id", "$maker.name").append("count", new BasicDBObject("$sum", 1)));
-		BasicDBObject sort = new BasicDBObject("$sort", new BasicDBObject("count", -1));
-		BasicDBObject limit = new BasicDBObject("$limit", 7);
-		AggregateIterable<Document> output = getCollection("product").aggregate(Arrays.asList(group, sort, limit));
-	    
-	    // create output
-	    final List<Pool> result = new ArrayList<Pool>();
-	    //for (Document document : output)
-		//	result.add(new Pool().setName("" + document.get("_id")).setCount(Integer.parseInt(document.get("count") + "")));
+		FindIterable<Document> iterable = getCollection("PS_ASSET").find().limit(action.getCount());
+		
+		// create output
+		final List<Pool> pools = new ArrayList<Pool>();
+		iterable.forEach(new Block<Document>() {
+		    @Override
+		    public void apply(final Document document) {
+				String center = (String) ((Document) document.get("document")).get("cen");			
+				pools.add(new Pool()
+						.setName(center)
+						.setDescription("There are many variations of passages of Lorem Ipsum available, but the majority")
+						.setPhoto("images/portfolio/recent/item1.png"));
+		    }
+		});
 
-		return result;
+		return pools;
 	}
 	
 	// *************************************************************************************************

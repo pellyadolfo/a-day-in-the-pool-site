@@ -19,10 +19,10 @@ package com.pool.app.dispatch;
 import com.gwtplatform.dispatch.rpc.shared.UnsecuredActionImpl;
 
 public class GetPoolsRequest extends UnsecuredActionImpl<GetPoolsResult> {
-    private String textToServer;
+    private int count;
 
-    public GetPoolsRequest(String textToServer) {
-        this.textToServer = textToServer;
+    public GetPoolsRequest(int count) {
+        this.count = count;
     }
 
     /**
@@ -32,7 +32,7 @@ public class GetPoolsRequest extends UnsecuredActionImpl<GetPoolsResult> {
     private GetPoolsRequest() {
     }
 
-    public String getTextToServer() {
-        return textToServer;
+    public int getCount() {
+        return count;
     }
 }

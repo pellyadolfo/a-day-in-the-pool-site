@@ -74,7 +74,7 @@ public class HomePresenter extends Presenter<HomePresenter.MyView, HomePresenter
     public static final Slot<PoolPresenter> SLOT_POOLS = new Slot<PoolPresenter>();
     @Inject Provider<PoolPresenter> poolPresenterProvider;
     public void loadPools() {
-        dispatcher.execute(new GetPoolsRequest("textToServer"), new AsyncCallback<GetPoolsResult>() {
+        dispatcher.execute(new GetPoolsRequest(8), new AsyncCallback<GetPoolsResult>() {
 	        @Override
 	        public void onFailure(Throwable caught) {
 	            //getView().setServerResponse("An error occurred: " + caught.getMessage());
