@@ -1,7 +1,7 @@
 package com.pool.app.middleware;
 
 import com.pool.app.server.AServicesFacade;
-import com.pool.app.server.app.dao.MongoDBDao;
+import com.pool.app.server.app.dao.HardcodedDao;
 
 public class AHandler {
 	
@@ -9,7 +9,7 @@ public class AHandler {
 
 	protected AServicesFacade getDao() {
 		if (dao == null)
-			dao = new MongoDBDao();
+			dao = new HardcodedDao();
 		return dao;
 	}
 }

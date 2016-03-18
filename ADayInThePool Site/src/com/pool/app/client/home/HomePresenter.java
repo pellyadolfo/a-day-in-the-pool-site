@@ -1,5 +1,7 @@
 package com.pool.app.client.home;
 
+import com.google.gwt.user.client.rpc.AsyncCallback;
+
 /*
  * #%L
  * GwtBootstrap3
@@ -21,6 +23,7 @@ package com.pool.app.client.home;
  */
 
 import com.google.inject.Inject;
+import com.google.inject.Provider;
 import com.google.web.bindery.event.shared.EventBus;
 import com.gwtplatform.dispatch.rpc.shared.DispatchAsync;
 import com.gwtplatform.mvp.client.HasUiHandlers;
@@ -28,10 +31,14 @@ import com.gwtplatform.mvp.client.Presenter;
 import com.gwtplatform.mvp.client.View;
 import com.gwtplatform.mvp.client.annotations.NameToken;
 import com.gwtplatform.mvp.client.annotations.ProxyStandard;
+import com.gwtplatform.mvp.client.presenter.slots.Slot;
 import com.gwtplatform.mvp.client.proxy.PlaceManager;
 import com.gwtplatform.mvp.client.proxy.ProxyPlace;
 import com.pool.app.client.NameTokens;
 import com.pool.app.client.application.ApplicationPresenter;
+import com.pool.app.client.widget.pool.PoolPresenter;
+import com.pool.app.dispatch.GetPoolsRequest;
+import com.pool.app.dispatch.GetPoolsResult;
 
 public class HomePresenter extends Presenter<HomePresenter.MyView, HomePresenter.MyProxy> implements HomeUiHandlers {
     @ProxyStandard
@@ -59,5 +66,28 @@ public class HomePresenter extends Presenter<HomePresenter.MyView, HomePresenter
         this.dispatcher = dispatcher;
         
         getView().setUiHandlers(this);
+        
+        loadPools();
+    }
+    
+    // load pools
+    public static final Slot<PoolPresenter> SLOT_POOLS = new Slot<PoolPresenter>();
+    @Inject Provider<PoolPresenter> poolPresenterProvider;
+    public void loadPools() {
+        dispatcher.execute(new GetPoolsRequest("textToServer"), new AsyncCallback<GetPoolsResult>() {
+	        @Override
+	        public void onFailure(Throwable caught) {
+	            //getView().setServerResponse("An error occurred: " + caught.getMessage());
+	        }
+	
+	        @Override
+	        public void onSuccess(GetPoolsResult result) {
+            	for(int i = 0; i < result.getPools().size(); i++) {
+            		PoolPresenter poolPresenter = poolPresenterProvider.get();
+            		poolPresenter.setPool(result.getPools().get(i));
+    				getView().addToSlot(SLOT_POOLS, poolPresenter);
+            	}
+	        }
+	    });
     }
 }

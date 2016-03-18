@@ -220,8 +220,10 @@
                 <h2><ui:msg description="Main_RecentWorks">Recent Works</ui:msg></h2>
                 <p class="lead"><ui:msg description="Main_RecentWork">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br/> et dolore magna aliqua. Ut enim ad minim veniam111</ui:msg></p>
             </div>
-
-            <div class="row">
+            
+            <g:FlowPanel ui:field="poolsPanel" addStyleNames="row"></g:FlowPanel>
+            <!-- div class="row">
+            
                 <div class="col-xs-12 col-sm-4 col-md-3">
                     <div class="recent-work-wrap">
                         <img class="img-responsive" src="images/portfolio/recent/item1.png" alt=""/>
@@ -230,7 +232,7 @@
                                 <h3><ui:msg description="Main_RecentWork_Title1"><a href="#">Business theme</a></ui:msg></h3>
                                 <p><ui:msg description="Main_RecentWork_Text1">There are many variations of passages of Lorem Ipsum available, but the majority</ui:msg></p>
                                 <a class="preview" href="images/portfolio/full/item1.png" rel="prettyPhoto"><i class="fa fa-eye"></i><ui:msg description="Main_RecentWork_View">View</ui:msg></a>
-                            </div> 
+                            </div>
                         </div>
                     </div>
                 </div>   
@@ -243,7 +245,7 @@
                                 <h3><a href="#"><ui:msg description="Main_RecentWork_Title2">Business theme</ui:msg></a></h3>
                                 <p><ui:msg description="Main_RecentWork_Text2">There are many variations of passages of Lorem Ipsum available, but the majority</ui:msg></p>
                                 <a class="preview" href="images/portfolio/full/item2.png" rel="prettyPhoto"><i class="fa fa-eye"></i><ui:msg description="Main_RecentWork_View">View</ui:msg></a>
-                            </div> 
+                            </div>
                         </div>
                     </div>
                 </div> 
@@ -256,7 +258,7 @@
                                 <h3><a href="#"><ui:msg description="Main_RecentWork_Title3">Business theme</ui:msg></a></h3>
                                 <p><ui:msg description="Main_RecentWork_Text3">There are many variations of passages of Lorem Ipsum available, but the majority</ui:msg></p>
                                 <a class="preview" href="images/portfolio/full/item3.png" rel="prettyPhoto"><i class="fa fa-eye"></i><ui:msg description="Main_RecentWork_View">View</ui:msg></a>
-                            </div> 
+                            </div>
                         </div>
                     </div>
                 </div>   
@@ -269,7 +271,7 @@
                                 <h3><a href="#"><ui:msg description="Main_RecentWork_Title4">Business theme</ui:msg></a></h3>
                                 <p><ui:msg description="Main_RecentWork_Text4">There are many variations of passages of Lorem Ipsum available, but the majority</ui:msg></p>
                                 <a class="preview" href="images/portfolio/full/item4.png" rel="prettyPhoto"><i class="fa fa-eye"></i><ui:msg description="Main_RecentWork_View">View</ui:msg></a>
-                            </div> 
+                            </div>
                         </div>
                     </div>
                 </div>   
@@ -282,7 +284,7 @@
                                 <h3><a href="#"><ui:msg description="Main_RecentWork_Title5">Business theme</ui:msg></a></h3>
                                 <p><ui:msg description="Main_RecentWork_Text5">There are many variations of passages of Lorem Ipsum available, but the majority</ui:msg></p>
                                 <a class="preview" href="images/portfolio/full/item5.png" rel="prettyPhoto"><i class="fa fa-eye"></i><ui:msg description="Main_RecentWork_View">View</ui:msg></a>
-                            </div> 
+                            </div>
                         </div>
                     </div>
                 </div>   
@@ -295,7 +297,7 @@
                                 <h3><a href="#"><ui:msg description="Main_RecentWork_Title6">Business theme</ui:msg></a></h3>
                                 <p><ui:msg description="Main_RecentWork_Text6">There are many variations of passages of Lorem Ipsum available, but the majority</ui:msg></p>
                                 <a class="preview" href="images/portfolio/full/item6.png" rel="prettyPhoto"><i class="fa fa-eye"></i><ui:msg description="Main_RecentWork_View">View</ui:msg></a>
-                            </div> 
+                            </div>
                         </div>
                     </div>
                 </div> 
@@ -308,7 +310,7 @@
                                 <h3><a href="#"><ui:msg description="Main_RecentWork_Title7">Business theme</ui:msg></a></h3>
                                 <p><ui:msg description="Main_RecentWork_Text7">There are many variations of passages of Lorem Ipsum available, but the majority</ui:msg></p>
                                 <a class="preview" href="images/portfolio/full/item7.png" rel="prettyPhoto"><i class="fa fa-eye"></i><ui:msg description="Main_RecentWork_View">View</ui:msg></a>
-                            </div> 
+                            </div>
                         </div>
                     </div>
                 </div>   
@@ -321,11 +323,12 @@
                                 <h3><a href="#"><ui:msg description="Main_RecentWork_Title8">Business theme</ui:msg></a></h3>
                                 <p><ui:msg description="Main_RecentWork_Text8">There are many variations of passages of Lorem Ipsum available, but the majority</ui:msg></p>
                                 <a class="preview" href="images/portfolio/full/item8.png" rel="prettyPhoto"><i class="fa fa-eye"></i><ui:msg description="Main_RecentWork_View">View</ui:msg></a>
-                            </div> 
+                            </div>
                         </div>
                     </div>
-                </div>   
-            </div><!--/.row-->
+                </div>
+                
+            </div--><!--/.row-->
         </div><!--/.container-->
     </section><!--/#recent-works-->
 

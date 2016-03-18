@@ -26,6 +26,8 @@ import com.pool.app.client.services.ServicesPresenter;
 import com.pool.app.client.services.ServicesView;
 import com.pool.app.client.shortcodes.ShortCodesPresenter;
 import com.pool.app.client.shortcodes.ShortCodesView;
+import com.pool.app.client.widget.pool.PoolPresenter;
+import com.pool.app.client.widget.pool.PoolView;
 
 /**
  * @author Joshua Godi
@@ -50,6 +52,9 @@ public class ApplicationModule extends AbstractPresenterModule {
         bindPresenter(PricingPresenter.class, PricingPresenter.MyView.class, PricingView.class, PricingPresenter.MyProxy.class);
         bindPresenter(ServicesPresenter.class, ServicesPresenter.MyView.class, ServicesView.class, ServicesPresenter.MyProxy.class);
         bindPresenter(ShortCodesPresenter.class, ShortCodesPresenter.MyView.class, ShortCodesView.class, ShortCodesPresenter.MyProxy.class);
+        
+        // widgets
+        bindPresenterWidget(PoolPresenter.class, PoolPresenter.MyView.class, PoolView.class);
         
         // bind constants
         bindConstant().annotatedWith(DefaultPlace.class).to(NameTokens.HOME);
