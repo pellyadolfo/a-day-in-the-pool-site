@@ -3,7 +3,7 @@
 	xmlns:b.html='urn:import:org.gwtbootstrap3.client.ui.html'
 	xmlns:g='urn:import:com.google.gwt.user.client.ui'>
 
-	<g:HTMLPanel addStyleNames="col-xs-12 col-sm-4 col-md-3">
+	<g:HTMLPanel addStyleNames="portfolio-item col-xs-12 col-sm-4 col-md-3">
 		<div class="recent-work-wrap">
 			<img ui:field="image" addStyleNames="img-responsive" src="images/portfolio/recent/item1.png" alt="" />
 			<div class="overlay">
