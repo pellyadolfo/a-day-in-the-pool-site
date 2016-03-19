@@ -1,12 +1,15 @@
 package com.pool.app.server.app.dao;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 import org.bson.Document;
 
 import com.mongodb.Block;
 import com.mongodb.MongoClient;
+import com.mongodb.MongoCredential;
+import com.mongodb.ServerAddress;
 import com.mongodb.client.FindIterable;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
@@ -19,7 +22,7 @@ public class MongoDBDao extends AServicesFacade {
 	@Override
 	public List<Pool> getPoolsImpl(GetPoolsRequest action) {
 		// run query
-		FindIterable<Document> iterable = getCollection("PS_ASSET").find().limit(action.getCount());
+		FindIterable<Document> iterable = getCollection("PE_ASSET").find().limit(action.getCount());
 		
 		// create output
 		final List<Pool> pools = new ArrayList<Pool>();
@@ -33,6 +36,7 @@ public class MongoDBDao extends AServicesFacade {
 						.setPhoto("images/portfolio/recent/item1.png"));
 		    }
 		});
+		System.out.println("records obtained: " + pools.size());
 
 		return pools;
 	}
@@ -59,12 +63,46 @@ public class MongoDBDao extends AServicesFacade {
 	}
 	
 	private MongoCollection<Document> getCollection(String name) {
-		if (db == null || mongoClient == null) {
-			System.out.println("opening");
-			mongoClient = new MongoClient( "localhost" , 27017 );
-			db = mongoClient.getDatabase( "pool" );
+		if (db != null && mongoClient != null)
+			return db.getCollection(name);
+		
+		try {
+			return getDBByCRC(name);
+		} catch (Throwable e) {
+			System.out.println("Not CRC authentication");
+			try {
+				return getDBBySH1(name);
+			} catch (Throwable e1) {
+				System.out.println("Not SH1 authentication");
+				handleException(e1, name);				
+			}
 		}
-				
+		
+		return null;
+	}
+	
+	private MongoCollection<Document> getDBByCRC(String name) {
+		MongoCredential credential = MongoCredential.createCredential("pool", "pool", "pellyadolfo".toCharArray());
+		List<MongoCredential> auths = new ArrayList<MongoCredential>();
+		auths.add(credential);
+
+		mongoClient = new MongoClient(new ServerAddress("localhost", 27050), auths);
+		
+		//mongoClient = new MongoClient( "localhost" , 27050 );
+		db = mongoClient.getDatabase( "pool" );
+		
+		return db.getCollection(name);
+	}
+	private MongoCollection<Document> getDBBySH1(String name) {
+		MongoCredential credential = MongoCredential.createScramSha1Credential("pool", "pool", "pellyadolfo".toCharArray());
+		List<MongoCredential> auths = new ArrayList<MongoCredential>();
+		auths.add(credential);
+
+		mongoClient = new MongoClient(new ServerAddress("localhost", 27050), auths);
+		
+		//mongoClient = new MongoClient( "localhost" , 27050 );
+		db = mongoClient.getDatabase( "pool" );
+		
 		return db.getCollection(name);
 	}
 }

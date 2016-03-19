@@ -9,13 +9,30 @@ import com.pool.app.dispatch.GetPoolsRequest;
 public abstract class AServicesFacade {
 	
 	public List<Pool> getPools(GetPoolsRequest action) {
-    	try { pre(); return getPoolsImpl(action); } catch (Throwable e) { handleException(e, action); } finally {post();} return new ArrayList<Pool>();
+    	try { prea(); return getPoolsImpl(action); } catch (Throwable e) { handleException(e, action); } finally {posta();} return new ArrayList<Pool>();
 	}
     protected abstract List<Pool> getPoolsImpl(GetPoolsRequest action) throws Throwable;
 	
-    // connection management
+    // connection pre
+    private void prea() {
+    	try {
+    		pre();
+    	} catch (Throwable e) {
+    		handleException(e, null);
+    	}
+    }
     protected abstract void pre();
+    
+    // connection post
+    private void posta() {
+    	try {
+    		post();
+    	} catch (Throwable e) {
+    		handleException(e, null);
+    	}
+    }
     protected abstract void post();
+    
 	protected void handleException (Throwable e, Object config) {
 		e.printStackTrace();
 	}
