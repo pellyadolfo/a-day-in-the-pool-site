@@ -51,9 +51,8 @@
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
                         <li><a href="#home">Home</a></li>
-                        <!-- li><a href="#services"><ui:msg description="Top_Menu_Services">Services</ui:msg></a></li-->
                         <li class="active"><a href="#portfolio"><ui:msg description="Top_Menu_Portfolio">Portfolio</ui:msg></a></li>
-                        <li><a href="#shortcodes"><ui:msg description="Top_Menu_Pages">Administrator</ui:msg></a></li>
+                        <li><a href="#shortcodes"><ui:msg description="Top_Menu_Admin">Administrator</ui:msg></a></li>
                         <li><a href="#blog"><ui:msg description="Top_Menu_Blog">Blog</ui:msg></a></li>
                         <li><a href="#contact"><ui:msg description="Top_Menu_Contact">Contact</ui:msg></a></li>                        
                         <li><a href="#about"><ui:msg description="Top_Menu_About Us">About Us</ui:msg></a></li>
