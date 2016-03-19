@@ -53,16 +53,17 @@
                         <li><a href="#home">Home</a></li>
                         <!-- li class="active"><a href="#services"><ui:msg description="Top_Menu_Services">Services</ui:msg></a></li-->
                         <li><a href="#portfolio"><ui:msg description="Top_Menu_Portfolio">Portfolio</ui:msg></a></li>
+                        <li><a href="#shortcodes"><ui:msg description="Top_Menu_Pages">Administrator</ui:msg></a></li>
+                        <li><a href="#blog"><ui:msg description="Top_Menu_Blog">Blog</ui:msg></a></li>
+                        <li><a href="#contact"><ui:msg description="Top_Menu_Contact">Contact</ui:msg></a></li>                        
+                        <li><a href="#about"><ui:msg description="Top_Menu_About Us">About Us</ui:msg></a></li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><ui:msg description="Top_Menu_Pages">Pages</ui:msg><i class="fa fa-angle-down"></i></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><ui:msg description="Top_Menu_Login">Login</ui:msg><i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
                                 <li><a href="#shortcodes"><ui:msg description="Top_Menu_ShortCodes">Shortcodes</ui:msg></a></li>
                                 <li><a href="#pricing"><ui:msg description="Top_Menu_Pricing">Pricing</ui:msg></a></li>
                             </ul>
-                        </li>
-                        <li><a href="#blog"><ui:msg description="Top_Menu_Blog">Blog</ui:msg></a></li>
-                        <li><a href="#contact"><ui:msg description="Top_Menu_Contact">Contact</ui:msg></a></li>                        
-                        <li><a href="#about"><ui:msg description="Top_Menu_About Us">About Us</ui:msg></a></li>
+                        </li>                           
                     </ul>
                 </div>
             </div><!--/.container-->
