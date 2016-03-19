@@ -76,10 +76,11 @@
             </div>
         
             <ul class="portfolio-filter text-center">
-                <li><a class="btn btn-default active" href="#" data-filter="*"><ui:msg description="Portfolio - Type1">All Works</ui:msg></a></li>
-                <li><a class="btn btn-default" href="#" data-filter=".bootstrap"><ui:msg description="Portfolio - Type2">Creative</ui:msg></a></li>
-                <li><a class="btn btn-default" href="#" data-filter=".html"><ui:msg description="Portfolio - Type3">Photography</ui:msg></a></li>
-                <li><a class="btn btn-default" href="#" data-filter=".wordpress"><ui:msg description="Portfolio - Type4">Web Development</ui:msg></a></li>
+                <li><a class="btn btn-default active" href="#" data-filter="*"><ui:msg description="Portfolio - Type1">All</ui:msg></a></li>
+                <li><a class="btn btn-default" href="#" data-filter=".bootstrap"><ui:msg description="Portfolio - Type2">School</ui:msg></a></li>
+                <li><a class="btn btn-default" href="#" data-filter=".html"><ui:msg description="Portfolio - Type3">Restaurant</ui:msg></a></li>
+                <li><a class="btn btn-default" href="#" data-filter=".wordpress"><ui:msg description="Portfolio - Type4">Club</ui:msg></a></li>
+                <li><a class="btn btn-default" href="#" data-filter=".wordpress"><ui:msg description="Portfolio - Type5">Municipality</ui:msg></a></li>
             </ul><!--/#portfolio-filter-->
 
             <g:FlowPanel ui:field="poolsPanel" addStyleNames="row"></g:FlowPanel>
